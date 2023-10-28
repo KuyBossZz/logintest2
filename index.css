@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-color: #fcf8f8;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper {
+    width: 420px;
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 0 0 2px;;
+    transition: all .6s ease;
+    border-radius: 20px;
+    background-color: #ffeff1;
+    }
+
+.wrapper h1{
+    text-align:center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin: 20px 0;
+    
+}
+
+
+.wrapper .input-box input{
+    border: 2px solid #ff7b8a;
+    width: 85%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding:0 45px 0 0 ;
+    background: transparent;
+    padding-left: 20px;
+    font-size: 16px;
+    transition: .5s ease;
+}
+
+.wrapper .input-box input:hover{
+    background-color: #ff7b8a;
+    color:#fff;
+    border: 2px solid black;
+    transition: .5s ease;
+}
+
+.input-box input::placeholder{
+    font-size: 15px;
+    padding-left: 1px;
+}
+
+.wrapper .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-145%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot{
+    justify-content: space-between;
+    display: flex;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot input{
+    accent-color: #ffadb6;
+    margin-right: 3px;
+}
+
+
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+    transition: .3s ;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: #ff7b8a;
+    transition: .3s ;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    color: black;
+    background: #ff7b8a;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: .5s ease;
+}
+
+.wrapper .btn:hover{
+    background: #ffadb6;
+    transition:  0.5s ease;
+    transform: scale(1.05);
+}
+
+.wrapper .Register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrapper .Register a{
+    color: black;
+    text-decoration: none;
+    transition: .3s ;
+}
+
+.wrapper .Register a:hover{
+    text-decoration: underline;
+    color: #ff7b8a;
+    transition: .3s ;
+}
